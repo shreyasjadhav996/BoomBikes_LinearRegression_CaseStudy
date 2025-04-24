@@ -44,3 +44,28 @@ After training and testing the model:
 ```python
 from sklearn.metrics import r2_score
 r2_score(y_test, y_pred)
+```
+## ✅ Outcomes & Insights
+
+- 🔍 **Year-over-year growth**: The `yr` variable (0 for 2018, 1 for 2019) showed a strong positive correlation with demand, indicating rising popularity of bike-sharing services.
+- 🌡️ **Temperature** had a significant positive impact on bike rentals—warmer days tend to see higher usage.
+- 💧 **Humidity** had a negative influence, with higher humidity leading to reduced rentals.
+- ☁️ **Weather situation** and **season** played an important role, highlighting that demand varies across different times of the year and weather conditions.
+- 📈 The model performs well in predicting bike demand and provides valuable insights that can be used to:
+  - Optimize bike availability.
+  - Plan marketing campaigns.
+  - Strategize maintenance schedules.
+  - Scale operations across new locations.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python** – Core programming language for data analysis and modeling.
+- **Pandas** – For data manipulation and transformation.
+- **NumPy** – For numerical computations.
+- **Matplotlib & Seaborn** – For data visualization and exploratory analysis.
+- **scikit-learn** – For building and evaluating the regression model.
+- **Jupyter Notebook** – For combining code, output, and documentation in one place.
+
+
